@@ -50,7 +50,6 @@ use yii\helpers\Html;
 
 						$mainImg = $product->getImage();
 						$gallery = $product->getImages();
-						debug($mainImg);
 
 				?>
 

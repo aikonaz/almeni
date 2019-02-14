@@ -25,10 +25,10 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             //'parent_id',
             [
-              'attribute' => 'parent_id',
-              'value' => function($data){
-                  return $data->category->name ? $data->category->name : 'Самостоятельная категория';
-              },
+                    'attribute' => 'parent_id',
+                    'value'     => function($data){
+                       return $data->category->name ? $data->category->name : 'Самостаятельная категория';
+                    },
             ],
             'name',
             'keywords',
